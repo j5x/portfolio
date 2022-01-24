@@ -1,0 +1,26 @@
+body{
+    padding: 5px;
+    background-color: wheat;
+}
+
+.button{
+    background-color: slategray;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+}
+
+.button:hover{
+    background-color: white;
+}
+
+section{
+    margin: 0 auto;
+    width: 50%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,55 @@
+*{
+    background: bisque;
+}
+body{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+main{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+header{
+    background: black;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -385px;
+}
+header > h1{
+    background: black;
+    color: white;
+}
+footer{
+    background: black;
+    display: flex;
+    height: 80px;
+    width: 120%;
+    padding: 20px; 
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -385px;
+}
+footer > h1{
+    background: black;
+    color: white;
+}
+footer > h2{
+    background: black;
+    color: white;
+}
+footer> a{
+    background: black;
+    color: white;
+
+}
